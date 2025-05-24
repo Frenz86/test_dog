@@ -32,20 +32,15 @@
                 ></path>
               </svg>
             </div>
-            <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em]">Pet Grooming</h2>
+            <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em]">Pet Grooming App</h2> <!-- Corrected App Name -->
           </div>
           <div class="flex flex-1 justify-end gap-8">
-            <div class="flex items-center gap-9">
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Servizi</a>
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Prezzi</a>
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Strumenti</a>
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Contatti</a>
+            <div id="user-navigation-links" class="flex items-center gap-9">
+              <!-- Links will be populated by static/js/auth.js -->
             </div>
-            <button
-              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#3d98f4] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
-            >
-              <span class="truncate">Prenota ora</span>
-            </button>
+            <div id="user-action-buttons" class="flex gap-2">
+              <!-- Action buttons (Login/Logout, Sign Up) will be populated by static/js/auth.js -->
+            </div>
           </div>
         </header>
         <div class="px-40 flex flex-1 justify-center py-5">
@@ -371,5 +366,13 @@
         </footer>
       </div>
     </div>
+    <script src="static/js/auth.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        if (typeof updateLoginStatusUI === 'function') {
+          updateLoginStatusUI();
+        }
+      });
+    </script>
   </body>
 </html>
