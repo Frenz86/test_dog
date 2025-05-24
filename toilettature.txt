@@ -1,0 +1,1 @@
+crea web app per toilettatura cani. L'app ha una bellissima landing page, dove spiega tutti i servizi costi strumenti etc... La webapp permette di fare il login, caricare le informazioni del proprio cane, taglia, peso, razza, e prenotazione dell'appuntamento per la toilettatura. Fallo accattivante e molto moderno, stile 2025
