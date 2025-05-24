@@ -1,1 +1,5 @@
+## Stitch
 crea web app per toilettatura cani. L'app ha una bellissima landing page, dove spiega tutti i servizi costi strumenti etc... La webapp permette di fare il login, caricare le informazioni del proprio cane, taglia, peso, razza, e prenotazione dell'appuntamento per la toilettatura. Fallo accattivante e molto moderno, stile 2025
+
+##Jules
+data la seguente repo troverai dentro delle pagine html già generate di una webapp che sto creando per la presa prenotazioni di una tolettatura. Voglio che mi scrivi tutto il codice per gestire login-logout, presa prenotazione creando la parte di backend e logica del front-end. Usa pure un DB SQL-lite locale. E migliora il front-end se lo reputi opportuno necessario
